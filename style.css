@@ -1,68 +1,5 @@
-@font-face {
-  font-family: "proxima nova";
-  src: url("https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot");
-  src: url("https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://litmus.com/fonts/Emails/proximanova-regular-webfont.woff")
-      format("woff"),
-    url("https://litmus.com/fonts/Emails/proximanova-regular-webfont.ttf")
-      format("truetype"),
-    url("https://litmus.com/fonts/Emails/proximanova-regular-webfont.svg#proxima_nova_rgregular")
-      format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-/* @font-face {
-  font-family: "proxima nova";
-  src: url("https://litmus.com/fonts/Emails/proximanova-bold-webfont.eot");
-  src: url("https://litmus.com/fonts/Emails/proximanova-bold-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://litmus.com/fonts/Emails/proximanova-bold-webfont.woff")
-      format("woff"),
-    url("https://litmus.com/fonts/Emails/proximanova-bold-webfont.ttf")
-      format("truetype"),
-    url("https://litmus.com/fonts/Emails/proximanova-bold-webfont.svg#proxima_nova_rgbold")
-      format("svg");
-  font-weight: normal;
-  font-style: normal;
-} */
-
-/* @import url("https://fonts.googleapis.com/css?family=Proxima+Nova"); */
-
-/* @font-face {
-    font-family: "proxima-nova";
-    src: url('proximanova-reg
-    ular.woff') format('woff');
-    font-weight: 400;
-} */
-
-/* @font-face {
-    font-family: 'proxima nova';
-    src: url('path/to/proximanova.woff') format('woff');
-} */
-
 body {
   margin: 0;
-}
-
-body,
-p,
-ul,
-ol,
-button,
-input,
-select,
-textarea {
-  font-size: 14px;
-  font-weight: 300 !important;
-  letter-spacing: 0px;
-  line-height: 1.8em;
-  font-family: "proxima nova";
-  font-size: 1rem;
-  font-style: normal;
-  letter-spacing: 0em;
-  line-height: 1.375rem;
 }
 
 #navbar-toggler {
@@ -71,25 +8,25 @@ textarea {
   border: none;
 }
 
-.navbar {
-  margin: auto;
-  width: auto;
-  max-width: 1000px;
-  position: relative;
-  padding: 50px 0;
+.navbar-brand {
+  padding-right: 38px;
 }
-.collapse ul a {
+
+.nav-item {
+  padding-right: 8px;
+}
+
+.nav-link {
   position: relative;
   color: #000 !important;
-  /* font-family: Arial, sans-serif; */
-  font-family: "proxima nova";
+  font-family: Arial, sans-serif;
+  /* font-family: proxima nova; */
   font-size: 11px;
-  font-weight: 590 !important;
+  font-weight: 400;
   font-style: normal;
   letter-spacing: 0.1em;
   padding: 0.5em;
   display: inline-block;
-  text-transform: uppercase;
 }
 
 .nav-link:hover {
@@ -116,10 +53,9 @@ textarea {
 .main-nav {
   background-color: #fff;
   padding: 37px 0;
-  margin: auto;
 }
 
-@media (min-width: 400px), (max-width: 649px) {
+@media (min-width: 768px) {
   .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0;
@@ -129,28 +65,6 @@ textarea {
     padding-left: 230px;
   }
 }
-
-/* 
-div ul li {
-    float: left;
-    list-style: none;
-    position: relative;
-}
-
-div ul li a {
-    text-decoration: none;
-    font-family: Arial, sans-serif;
-    color: #000;
-    font-size: 12px;
-    padding: 0px 16px;
-    display: block;
-}
-
-div ul li ul {
-    position: absolute;
-    display: block;
-    background-color: #fff;
-} */
 
 #logo {
   height: 39px;
@@ -209,13 +123,13 @@ div ul li ul {
 }
 
 .para {
+  font-weight: 400;
   font-size: 1rem;
   color: #444;
   text-align: center;
   font-family: Arial, sans-serif;
   /* font-family: proxima nova; */
   /* font-family: Helvetica, Arial, sans-ser; */
-  font-weight: 400 !important;
   font-style: normal;
   letter-spacing: 0em;
   line-height: 1.375rem;
