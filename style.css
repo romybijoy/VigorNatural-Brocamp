@@ -1,0 +1,384 @@
+@font-face {
+  font-family: "proxima nova";
+  src: url("https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot");
+  src: url("https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://litmus.com/fonts/Emails/proximanova-regular-webfont.woff")
+      format("woff"),
+    url("https://litmus.com/fonts/Emails/proximanova-regular-webfont.ttf")
+      format("truetype"),
+    url("https://litmus.com/fonts/Emails/proximanova-regular-webfont.svg#proxima_nova_rgregular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* @font-face {
+  font-family: "proxima nova";
+  src: url("https://litmus.com/fonts/Emails/proximanova-bold-webfont.eot");
+  src: url("https://litmus.com/fonts/Emails/proximanova-bold-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://litmus.com/fonts/Emails/proximanova-bold-webfont.woff")
+      format("woff"),
+    url("https://litmus.com/fonts/Emails/proximanova-bold-webfont.ttf")
+      format("truetype"),
+    url("https://litmus.com/fonts/Emails/proximanova-bold-webfont.svg#proxima_nova_rgbold")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+} */
+
+/* @import url("https://fonts.googleapis.com/css?family=Proxima+Nova"); */
+
+/* @font-face {
+    font-family: "proxima-nova";
+    src: url('proximanova-reg
+    ular.woff') format('woff');
+    font-weight: 400;
+} */
+
+/* @font-face {
+    font-family: 'proxima nova';
+    src: url('path/to/proximanova.woff') format('woff');
+} */
+
+body {
+  margin: 0;
+}
+
+body,
+p,
+ul,
+ol,
+button,
+input,
+select,
+textarea {
+  font-size: 14px;
+  font-weight: 300 !important;
+  letter-spacing: 0px;
+  line-height: 1.8em;
+  font-family: "proxima nova";
+  font-size: 1rem;
+  font-style: normal;
+  letter-spacing: 0em;
+  line-height: 1.375rem;
+}
+
+#navbar-toggler {
+  color: #000;
+  font-size: 16px;
+  border: none;
+}
+
+.navbar {
+  margin: auto;
+  width: auto;
+  max-width: 1000px;
+  position: relative;
+  padding: 50px 0;
+}
+.collapse ul a {
+  position: relative;
+  color: #000 !important;
+  /* font-family: Arial, sans-serif; */
+  font-family: "proxima nova";
+  font-size: 11px;
+  font-weight: 590 !important;
+  font-style: normal;
+  letter-spacing: 0.1em;
+  padding: 0.5em;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  color: #666 !important;
+}
+
+#dropdown-menu {
+  border: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.dropdown-item {
+  font-family: Arial, sans-serif;
+  /* font-family: proxima-nova; */
+  font-size: 11px;
+  font-style: normal;
+  letter-spacing: 0.1em;
+}
+
+.dropdown-item:hover {
+  background-color: #fff !important;
+  color: #666 !important;
+}
+
+.main-nav {
+  background-color: #fff;
+  padding: 37px 0;
+  margin: auto;
+}
+
+@media (min-width: 400px), (max-width: 649px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+
+  .main-nav {
+    padding-left: 230px;
+  }
+}
+
+/* 
+div ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+div ul li a {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: #000;
+    font-size: 12px;
+    padding: 0px 16px;
+    display: block;
+}
+
+div ul li ul {
+    position: absolute;
+    display: block;
+    background-color: #fff;
+} */
+
+#logo {
+  height: 39px;
+}
+
+#banner-area-wrapper {
+  position: relative;
+  height: 527px;
+}
+
+#banner-area {
+  position: static;
+  text-align: center;
+  height: auto;
+  padding-top: 185px;
+  padding-bottom: 185px;
+}
+
+/* blurred background */
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.41);
+}
+
+#page-thumb {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.page-title {
+  font-family: Arial, sans-serif;
+  /* font-family: proxima-nova; */
+  color: #000;
+  position: absolute;
+  text-transform: uppercase;
+  letter-spacing: 0.031746em;
+  /* top: 50%;
+    left: 50%; */
+  line-height: 1.25em;
+  font-size: 63px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#page-body-wrapper {
+  padding-top: 101px;
+  padding-bottom: 101px;
+}
+
+.para {
+  font-size: 1rem;
+  color: #444;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  /* font-family: proxima nova; */
+  /* font-family: Helvetica, Arial, sans-ser; */
+  font-weight: 400 !important;
+  font-style: normal;
+  letter-spacing: 0em;
+  line-height: 1.375rem;
+}
+
+#page-body {
+  width: auto;
+  max-width: 1000px;
+  margin: auto;
+}
+
+#card-section {
+  margin-left: -17px;
+  margin-right: -17px;
+}
+
+.card-title a {
+  font-family: Arial, sans-serif;
+  color: #cec3ba;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.75rem;
+  letter-spacing: 0.04em;
+  line-height: 2.25rem;
+}
+
+.card-title a:hover {
+  font-family: Arial, sans-serif;
+  color: #a3bcc4;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 1.75rem;
+  letter-spacing: 0.04em;
+  line-height: 2.25rem;
+}
+
+.card-text {
+  padding: 17px 0px;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 0em;
+  line-height: 1.375rem;
+  color: #444;
+}
+
+#button {
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+  border: 2px solid black;
+  border-radius: 0%;
+  /* font-family: proxima-nova; */
+  font-size: 11px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.12em;
+  padding: 13px 24px;
+}
+
+#data-button {
+  text-align: center;
+}
+
+#image {
+  width: 100%;
+}
+
+.des-title {
+  color: #cec3ba;
+  font-family: Arial, sans-serif;
+  /* font-family: proxima-nova; */
+  font-size: 1.65rem;
+  font-weight: 550;
+  font-style: normal;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  line-height: 2.25rem;
+}
+
+.des-para1 {
+  color: #444 !important;
+  font-family: Arial, sans-serif;
+  /* font-family: proxima-nova; */
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.375rem;
+  margin: 24px 0;
+}
+
+.des-para1 a {
+  text-decoration: none;
+  color: #a3bcc4;
+}
+
+.des-para1 a:hover {
+  color: #444;
+}
+
+.des-para2 {
+  color: #444;
+  font-family: Arial, sans-serif;
+  /* font-family: proxima-nova; */
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.375rem;
+  margin: 24px 0;
+}
+
+#des-button {
+  text-align: center;
+  border-radius: 3px;
+}
+
+#butn {
+  font-family: Arial, sans-serif;
+  /* font-family: proxima-nova; */
+  font-size: 13px;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: #fff;
+  background-color: #a3bcc4;
+  padding: 21px 34px;
+  border-color: #a3bcc4;
+}
+
+#butn:hover {
+  background-color: #b6cbd2;
+}
+
+#page-footer-wrapper {
+  border-top: 1px solid #e8e8e8;
+  font-family: Arial, sans-serif;
+  padding: 22px 0px;
+}
+
+#page-footer {
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer-para {
+  color: #444;
+  padding: 10px 0px;
+  font-size: 14px;
+}
+
+#face-button {
+  border: 3px solid #a3bcc4;
+  border-radius: 0%;
+  font-family: Arial, sans-serif;
+  /* font-family: proxima-nova; */
+  font-size: 16px;
+  padding: 0px 8px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.12em;
+}
+
+#face-button:hover {
+  border: 3px solid #000;
+  font-size: 16px;
+}
