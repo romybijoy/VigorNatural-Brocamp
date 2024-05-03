@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 #navbar-toggler {
@@ -209,6 +210,7 @@ body {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   line-height: 2.25rem;
+  border: 1px solid black;
 }
 
 .des-para1 {
